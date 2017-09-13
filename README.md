@@ -26,6 +26,6 @@ To add your own locations edit the *locations* table in `chalicelib/database.db`
 Feel free to send pull requests and raise issues.
 
 ## License
->You can check out the full license [here](https://github.com/Mullen/store-locator/blob/master/LICENSE.md)
+>You can check out the full license [here](https://github.com/Mullen/lambda-store-locator/blob/master/LICENSE.md)
 
 This project is licensed under the terms of the **MIT** license.
