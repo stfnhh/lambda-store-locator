@@ -1,0 +1,2 @@
+pysqlite==2.8.3
+chalice==1.0.2
