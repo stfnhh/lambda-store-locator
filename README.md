@@ -21,6 +21,8 @@ Once the dependencies are installed, you can run  `chalice local` to start the a
 
 To add your own locations edit the *locations* table in `chalicelib/database.db`, the only column required for this to function is postcode.
 
+The *postcodes* table contains all U.S. and Canadian postal codes.
+
 ## Development and contributing
 
 Feel free to send pull requests and raise issues.
