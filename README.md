@@ -1,6 +1,6 @@
 # AWS Lambda Store Locator
 
-[![GitHub Stars](https://img.shields.io/github/stars/Mullen/store-locator.svg)](https://github.com/Mullen/store-locator/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/Mullen/store-locator.svg)](https://github.com/Mullen/store-locator/issues) [![Current Version](https://img.shields.io/badge/version-0.1.0-green.svg)](https://github.com/Mullen/store-locator)
+[![GitHub Stars](https://img.shields.io/github/stars/Mullen/lambda-store-locator.svg)](https://github.com/Mullen/lambda-store-locator/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/Mullen/lambda-store-locator.svg)](https://github.com/Mullen/labmda-store-locator/issues) [![Current Version](https://img.shields.io/badge/version-0.1.0-green.svg)](https://github.com/Mullen/labmda-store-locator)
 
 This is a Python store locator for [AWS Lambda](https://aws.amazon.com/lambda/) powered by [Chalice](https://github.com/aws/chalice/) and [SQLite](https://sqlite.org/).
 
