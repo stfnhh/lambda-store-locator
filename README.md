@@ -19,7 +19,7 @@ After you clone this repo, go to its root directory and run `pip install -r requ
 
 Once the dependencies are installed, you can run  `chalice local` to start the application. You will then be able to access it at localhost:8000/locations/*02201*
 
-To add your own locations edit the *locations* table in `chalicelib/database.db`, the only column required for this to function is postcode.
+To add your own locations edit the *locations* table in `chalicelib/database.db`, the only columns required for this to function are postcode, latitude and longitude.
 
 The *postcodes* table contains all U.S. and Canadian postal codes.
 
