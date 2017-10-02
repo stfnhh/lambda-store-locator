@@ -5,7 +5,7 @@ import os
 
 
 app = Chalice(app_name='store-locator')
-# app.debug = True
+app.debug = True
 
 
 @app.route('/locations/{postcode}', cors=True)

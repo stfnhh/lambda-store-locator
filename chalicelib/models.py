@@ -42,7 +42,7 @@ class Location(object):
         db.execute("""
             SELECT 
               l.*, 
-              ROUND(SQRT(POWER(69.1 * (%f - p.latitude), 2) + POWER(69.1 * (p.longitude - %f) * COS(41.929599 / 57.3), 2)), 2) AS distance 
+              ROUND(SQRT(POWER(69.1 * (%f - l.latitude), 2) + POWER(69.1 * (l.longitude - %f) * COS(41.929599 / 57.3), 2)), 2) AS distance 
             FROM postcodes p 
             INNER JOIN locations l ON(l.postcode = p.postcode) 
             ORDER BY distance 
