@@ -3,7 +3,6 @@ from chalicelib.models import Location
 import re
 import os
 
-
 app = Chalice(app_name='store-locator')
 app.debug = True
 
